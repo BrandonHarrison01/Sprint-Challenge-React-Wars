@@ -2,7 +2,7 @@ import React from 'react'
 
 function Character(props) {
     return(
-        <div>
+        <div style={{border: "1px solid black"}}>
             <h3>{props.character.name}</h3>
             <p>
                 <strong>Height</strong>   
