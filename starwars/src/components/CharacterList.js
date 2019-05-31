@@ -2,14 +2,12 @@ import React from 'react';
 
 import Character from './Character'
 
-function CharacterList () {
+function CharacterList (props) {
     return(
         <div>
-            <Character />
-
-            {/* {starwarsChars.map((character) => (
+            {starwarsChars.map((character) => (
                 <Character character={character} />
-            ))} */}
+            ))}
 
         </div>
     )

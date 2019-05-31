@@ -1,70 +1,70 @@
 import React from 'react'
 
-function Character() {
+function Character(props) {
     return(
         <div>
-            <h3>{this.state.starwarsChars.name}</h3>
+            <h3>{props.character.name}</h3>
             <p>
                 <strong>Height</strong>   
-                {this.state.starwarsChars.height}
+                {props.character.height}
             </p>
             <p>
                 <strong>Mass</strong>
-                {this.state.starwarsChars.mass}
+                {props.character.mass}
             </p>
             <p>
                 <strong>Hair Color</strong>
-                {this.state.starwarsChars.hair_color}
+                {props.character.hair_color}
             </p>
             <p>
                 <strong>Skin Color</strong>
-                {this.state.starwarsChars.skin_color}
+                {props.character.skin_color}
             </p>
             <p>
                 <strong>Eye Color</strong>
-                {this.state.starwarsChars.eye_color}
+                {props.character.eye_color}
             </p>
             <p>
                 <strong>Birth Year</strong>
-                {this.state.starwarsChars.birth_year}
+                {props.character.birth_year}
             </p>
             <p>
                 <strong>Gender</strong>
-                {this.state.starwarsChars.gender}
+                {props.character.gender}
             </p>
             <p>
                 <strong>Homeworld</strong>
-                {this.state.starwarsChars.homeworld}
+                {props.character.homeworld}
             </p>
             <p>
                 <strong>Films</strong>
-                {this.state.starwarsChars.films}
+                {props.character.films}
             </p>
             <p>
                 <strong>Species</strong>
-                {this.state.starwarsChars.species}
+                {props.character.species}
             </p>
             <p>
                 <strong>Vehicles</strong>
-                {this.state.starwarsChars.vehicles}
+                {props.character.vehicles}
             </p>
             <p>
                 <strong>Starships</strong>
-                {this.state.starwarsChars.starships}
+                {props.character.starships}
             </p>
             <p>
                 <strong>Created</strong>
-                {this.state.starwarsChars.created}
+                {props.character.created}
             </p>
             <p>
                 <strong>Edited</strong>
-                {this.state.starwarsChars.edited}
+                {props.character.edited}
             </p>
             <p>
                 <strong>Url</strong>
-                {this.state.starwarsChars.url}
+                {props.character.url}
             </p>
-        </div>
+       </div>
     )
 }
 
