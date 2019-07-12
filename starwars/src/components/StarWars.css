@@ -1,0 +1,6 @@
+.cards {
+    border: 1px solid black;
+    width: 400px;
+    margin: 20px auto;
+    background: rgba(100, 100, 100, .5);
+}
